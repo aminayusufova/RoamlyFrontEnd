@@ -1,0 +1,74 @@
+.hero {
+    background-image: url('254381.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1, .hero p, .hero a {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+.hero h1 {
+    font-size: 3rem; 
+}
+
+.hero p.lead {
+    font-size: 1.5rem;
+}
+
+
+/* Styling for dynamic card animation */
+.card {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease;
+}
+
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.btn-explore {
+    background-color: #00D6E0; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.btn-explore:hover {
+    background-color: #16848b; 
+    color: white;
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.login-signup-page {
+    background-image: url('ocean-3840x2160-5k-4k-wallpaper-sea-sunrise-shore-seagull-beach-5716.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
